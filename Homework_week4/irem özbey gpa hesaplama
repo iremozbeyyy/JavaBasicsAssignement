@@ -1,0 +1,30 @@
+import java.util.Scanner;
+
+        public class Main {
+            public static void main(String[] args) {
+                Scanner scanner = new Scanner(System.in);
+
+                System.out.println("not1 giriniz:");
+                double not1 = scanner.nextDouble();
+
+                System.out.println("not2 giriniz:");
+                double not2 = scanner.nextDouble();
+
+                System.out.println("not3 giriniz:");
+                double not3 = scanner.nextDouble();
+
+                System.out.println("not4 giriniz:");
+                double not4 = scanner.nextDouble();
+
+                System.out.println("not5 giriniz:");
+                double not5 = scanner.nextDouble();
+
+                double GPA = (not1 + not2 + not3 + not4 + not5) / 5;
+
+                if(GPA >50) {
+                    System.out.println("Sınıfı geçtin.");
+                } else {
+                    System.out.println("Kaldın.");
+                }
+            }
+        }
