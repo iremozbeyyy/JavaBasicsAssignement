@@ -1,0 +1,24 @@
+public class sınıf {
+
+        public String isim= "İrem";
+        public String soyisim= "Özbey";
+        public int dogumTarihi= 2005;
+        public int bugünkiTarih= 2024;
+        public int yas= bugünkiTarih - dogumTarihi;
+        public String unv= "bandirma on yedi eylul üniversitesi";
+        public String bolum= "bilgisayar mühendisligi";
+        public double boy=1.60;
+        public String sac = "kahverengi";
+    }
+    public class sınıfDrive {
+        public static void main(String[] args) {
+            sınıf degisken= new sınıf();
+            System.out.println(degisken.isim);
+            System.out.println(degisken.soyisim);
+            System.out.println(degisken.yas);
+            System.out.println(degisken.unv);
+            System.out.println(degisken.bolum);
+            System.out.println(degisken.boy);
+            System.out.println(degisken.sac);
+        }
+    }
